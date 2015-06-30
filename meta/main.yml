@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: David Karban
+  description: Install lts repository on Debian Squeeze.
+  company:
+  license: GPLv2
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - squeeze
+  categories:
+  - packaging
+
+dependencies: []
+  
