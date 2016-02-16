@@ -1,12 +1,10 @@
 ---
 # tasks file for repo_squeeze_lts
 - name: Install squeeze lts repository
-  sudo: yes
   tags: repositories
   copy: src=squeeze-lts.list dest=/etc/apt/sources.list.d/squeeze-lts.list
 
 - name: Update list of apt packages
-  sudo: yes
   tags: repositories
   apt: update_cache=yes
 
